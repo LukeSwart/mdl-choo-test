@@ -19,7 +19,7 @@ module.exports =
 
       // but `upgradeDom()` has a number of side-effects like reseting the page's scrollbar.
       // Ideally we should only be upgrading the element itself like this:
-      // componentHandler.upgradeElement(e)
+      componentHandler.upgradeElement(e)
       // More info here: https://github.com/google/material-design-lite/issues/1071
       // And here: https://github.com/google/material-design-lite/wiki/How-the-Component-Handler-works
 

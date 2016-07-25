@@ -9,7 +9,7 @@ const test = (state, prev, send) => {
 
   const loadMDL = (e) => {
     // This doesn't work, so we are using `componentHandler` within our 'checkbox' component:
-    componentHandler.upgradeDom()
+    // componentHandler.upgradeDom()
     // setTimeout(() => {componentHandler.upgradeDom()}, 1000)
   }
 
