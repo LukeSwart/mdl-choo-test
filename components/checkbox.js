@@ -29,7 +29,7 @@ module.exports =
 
     const getFinalCheckboxElement = (listItem) => {
       let checkboxElement = html`
-        <input type="checkbox" id="test1" class="mdl-checkbox__input" onclick=${select} value="test1Name"/>
+        <input type="checkbox" id="test1" class="mdl-checkbox__input" onclick=${select} value="test1Name" onload=${loadMDL}/>
     `
       if (listItem.checked) {
         // debugger
